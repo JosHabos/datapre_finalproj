@@ -1,9 +1,9 @@
 # Study of the use of API in Data Analysis
 ### _Done on Jupyter Notebook with Python; unofficial YouTube Music API used_
 
-This repository contains the main notebook, with the API of interest 'YTMusicAPI', an unofficial YouTube Music API that is able to access various variables (views, popularity, explicity, etc.), given a list of albums or artists to search for. The notebook starts with initializing the API and constructing a DataFrame, to be treated as the dataset of interest for the study.
+This repository contains the main notebook, with the API of interest 'YTMusicAPI', an unofficial YouTube Music API that is able to access relevant statistics (views, popularity, explicity, etc.) of a song, given a list of albums or artists to search songs for. The notebook starts with initializing the API and constructing a DataFrame, to be treated as the dataset of interest for the study.
 
-Data preprocessing is done first to remove duplicates, as well as identify and address null values, depending on the variable. Then, four questions are proposed to determine the effectiveness of the API. They are as follows:
+Data preprocessing is done first to remove duplicate songs, as well as identify and address null values depending on the statistic. Then, four questions are proposed to determine the effectiveness of the API. They are as follows:
 - Are explicit songs more popular than non-explicit songs?
 - Are longer songs more popular than shorter songs?
 - Is video game music (VGM) more popular than non-VGM?
